@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
 export default function Cabecalho(){
     return(
         <header>
-            <h1>Front testando conexão com API REST</h1>
+            <h1>FacilitaReabi</h1>
+            <nav>
+                <Link to= "/" >Home</Link>
+                <Link to= "/usuarios" >Usuários</Link>
+            </nav>
         </header>
     );
 }
