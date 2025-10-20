@@ -1,0 +1,59 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: aqua;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+h1{
+  font-size: 32px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 10px;
+  max-width: 50%;
+  background-color: rgb(117, 199, 236);
+  width: 400px;
+  margin-bottom: 20px;
+
+  & button{
+     border-radius: 80px;
+     background-color: rgb(74, 140, 170);
+     height: 40px;
+     border: none;
+     font-weight: bold;
+  }
+
+  & button:hover{
+    opacity: 0.8;
+  }
+
+  & input{
+    border: 1px solid rgb(74, 140, 170);;
+    height: 40px;
+    border-radius: 80px;
+  }
+
+}
+
+.card{
+  background-color: rgb(74, 140, 170);
+   display: flex;
+   justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 80px;
+
+
+}
