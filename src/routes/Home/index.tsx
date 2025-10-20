@@ -26,10 +26,8 @@ Passar toda lógica dos métodos de usuário para sua rota
 Componente de card exibe o usuário e chama OnDelete quando clicar no botão
 Recebe como props ent não precisa da lógica da api
 Home apenas importa Usuarios e renderiza, assim fica limpo para ter outros componentes no futuro
-Props=>
-
-
 */
+
     return(
         <>
         <Usuarios />
